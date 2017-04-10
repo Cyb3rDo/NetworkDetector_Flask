@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Python | Network Detector</title>
+<link rel="shortcut icon" href="../static/img/icon.ico" />
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+<script src="../static/js/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="../static/css/sweetalert.css"/>
+</head>
+<body>
+<div id="page">
+    <div id="h1"><h1>Network Detector</h1></div>
+    <form id="searchForm" method="post" action="/-" >
+		<fieldset>
+           	<input id="search" name="search" type="text" placeholder="First 3 Digits" />
+            <input type="submit" value="Submit" id="submitButton" />
+        </fieldset>
+    </form>
+    <div id="resultsDiv">   	
+        <p>Carrier: {{carrier}}</p>
+        <br>
+        <p>Type: {{type}}</p>
+    </div>
+</div>
+    
+<!-- It would be great if you leave the link back to the tutorial. Thanks! -->
+<p class="credit"><a href="http://flask.pocoo.org/" target="_blank">Powered by Python Flask</a></p>
+
+</body>
+</html>
