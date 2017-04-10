@@ -5,5 +5,5 @@ A simple web application written in python using flask to detect what network a 
 ```
 python 3.x
 flask 0.11.1
-postresql
+postgresql
 ```
