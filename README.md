@@ -1,5 +1,6 @@
 # NetworkDetector_Flask
 A simple web application written in python using flask to detect what network a number belongs to. (Jamaica only)
+This project is currently hosted locally so the database is private as it contains personal information. But you can always shoot me a email for more info on this project.
 
 ## Requirements
 ```
